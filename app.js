@@ -4,7 +4,7 @@ titulo.innerHTML = 'Jogo do numero secreto'
 let paragrafo = document.querySelector('p')
 paragrafo.innerHTML = 'Escolha o numero entre 1 e 10'*/
 let listaNumerosSorteados = []
-let numeroLimite = 10
+let numeroLimite = 100
 let numeroAleatorio = gerarNumero()
 let tentativas = 1
 
@@ -16,7 +16,7 @@ function exibiTextoNaTela(tag, texto){
 
 function exibirMensagemInicial(){
     exibiTextoNaTela('h1', 'Jogo do numero secreto')
-    exibiTextoNaTela('p', 'Escolha o numero entre 1 e 10')
+    exibiTextoNaTela('p', 'Escolha o numero entre 1 e 100')
 }
 exibirMensagemInicial()
 
