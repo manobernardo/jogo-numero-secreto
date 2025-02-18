@@ -4,7 +4,7 @@ titulo.innerHTML = 'Jogo do numero secreto'
 let paragrafo = document.querySelector('p')
 paragrafo.innerHTML = 'Escolha o numero entre 1 e 10'*/
 let listaNumerosSorteados = []
-let numeroLimite = 50
+let numeroLimite = 40
 let numeroAleatorio = gerarNumero()
 let tentativas = 1
 
